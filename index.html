@@ -1,0 +1,48 @@
+<html lang=" en ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="centro">
+
+
+        <div>
+            <input type="text" class="caja" id="mostrar">
+        </div>
+        <div>
+            <button type="submit" class="numero"  onclick="boton7()" id="7" value="1">7</button>
+            <button type="submit" class="numero" onclick="boton8()" id="8" value="1">8</button>
+            <button type="submit" class="numero" onclick="boton9()" id="9" value="1">9</button>
+            <button type="submit" class="simbolos"onclick="suma()" id="suma" value="suma">+</button>
+        </div>
+        <div>
+            <button type="submit" class="numero" onclick="boton4()" id="4" value="1">4</button>
+            <button type="submit" class="numero" onclick="boton5()" id="5" value="1">5</button>
+            <button type="submit" class="numero" onclick="boton6()" id="6" value="1">6</button>
+            <button type="submit" class="simbolos"onclick="resta()" id="resta" value="resta">-</button>
+        </div>
+        <div>
+            <button type="submit" class="numero" onclick="boton1()" id="1" value="1">1</button>
+            <button type="submit" class="numero" onclick="boton2()" id="2" value="1">2</button>
+            <button type="submit" class="numero" onclick="boton3()" id="3" value="1">3</button>
+            <button type="submit" class="simbolos" onclick="multiplicacion()"id="multiplicacion" value="multiplicacion">*</button>
+        </div>
+        <div>
+            <button type="submit" class="numero" id="CE" value="CE">CE</button>
+            <button type="submit" class="numero" id="0" value="0">0</button>
+            <button type="submit" class="numero" id= "resultado"onclick="igual()" value="resultado">=</button>
+            <button type="submit" class="simbolos"onclick="division()" id="division" value="division">/</button>
+        </div>
+        <div>
+            <button type="submit" class="codigo"onclick="codi()" id="cod">Imprimir codigo</button>
+        </div>
+        <script src="funciones.js"></script>
+</body>
+
+
+</html>

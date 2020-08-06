@@ -1,0 +1,25 @@
+.centro{
+    
+    padding-left: 400px;
+    padding-top: 160px;
+}
+.numero{
+    background-color: blue;
+    width: 40px;
+    height: 50px;
+}
+.simbolos{
+    background-color: darkturquoise;
+    width: 50px;
+    height: 50px;
+}
+.caja{
+    background-color: grey;
+    height: 100px;
+    width: 183px;
+}
+.codigo{
+    background-color: orange;
+    width: 183px;
+    height: 80px;
+}
